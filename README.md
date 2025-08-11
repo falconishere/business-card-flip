@@ -48,6 +48,13 @@ business-card-flip/
 ├── style.css # Styles and animations
 
 ---
+## 🙌 Acknowledgements
+- [Tailwind CSS](https://tailwindcss.com) – Utility-first CSS framework for responsive design.
+- [Google Fonts](https://fonts.google.com) – Typography customization.
+- [Font Awesome](https://fontawesome.com) – Icon set used for ratings and trivia.
+- **Christ University** – For providing the UI/UX course framework that inspired this project.
+
+---
 
 ## 👥 Contributors
 - Abhishan Francis
