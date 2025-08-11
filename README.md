@@ -1,4 +1,4 @@
-# 💳 Business Card Flip
+# 💳 Digital Business Card 
 
 A stylish interactive 3D **business card flip** effect created using HTML, CSS, and Font Awesome icons.  
 Click or hover to flip the card and reveal the back side. Perfect for portfolios, personal branding, or web experiments.
