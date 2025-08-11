@@ -1,0 +1,177 @@
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:'Montserrat',sans-serif;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+
+#flip-toggle {
+    display:none;
+}
+
+
+.overlay {
+    position:fixed;
+    inset:0;
+    z-index:1;
+    cursor:pointer;
+}
+
+
+.card-container {
+    perspective:1000px;
+    z-index:2;
+}
+
+
+.business-card {
+    width:380px;
+    height:320px;
+    position:relative;
+    transform-style:preserve-3d;
+    transition:transform 0.8s;
+}
+
+.card-side {
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 15px 30px rgba(0,0,0,0.5);
+}
+
+
+#flip-toggle:checked ~ .card-container .business-card {
+    transform:rotateY(180deg);
+}
+
+
+.card-front {
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+}
+
+.card-header {
+    display:flex;
+    align-items:center;
+    padding:20px;
+    background:linear-gradient(135deg,#00c6ff,#0072ff);
+}
+
+.profile-img {
+    flex-shrink:0;
+    width:80px;
+    height:80px;
+    border-radius:100%;
+    overflow:hidden;
+    border:3px solid white;
+}
+
+.profile-img img {
+    width:100%;
+    height:auto;
+}
+
+.info {
+    margin-left:15px;
+}
+
+.div p {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 5px 0 15px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+.info h1 {
+    margin:0;
+    font-weight:600;
+    letter-spacing:0.05em;
+    font-size:1.4rem;
+}
+
+.info p {
+    font-weight:400;
+    letter-spacing:0.02em;
+    font-size:0.8rem;
+    color:rgba(255,255,255,0.8);
+    margin:5px 0 0;
+}
+
+.card-details {
+    padding:20px;
+}
+
+.contact p {
+    margin:10px 0;
+    font-size:0.8rem;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:rgba(255,255,255,0.7);
+}
+
+.contact i {
+    color:#00d4ff;
+    font-size:1rem;
+}
+
+.divider {
+    width:100%;
+    height:1px;
+    background:rgba(255,255,255,0.2);
+    margin:20px 0px;
+}
+
+.social-icons {
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.social-icons .icon {
+    font-size:1.2rem;
+    color:#fff;
+    transition:color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    color:#00c6ff;
+    transform:scale(1.2);
+}
+
+
+.card-back {
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    transform:rotateY(180deg);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-img {
+    width:90%;
+    height:auto;
+    background:transparent;
+    filter:drop-shadow(0 4px 6px rgba(0,0,0,0.5));
+}
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
