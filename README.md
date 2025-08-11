@@ -49,7 +49,7 @@ business-card-flip/
 
 ---
 
-##👥 Contributors
--Abhishan Francis
--Abel Alexader
--Misheal Julian
+## 👥 Contributors
+- Abhishan Francis
+- Abel Alexader
+- Misheal Julian
