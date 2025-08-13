@@ -57,6 +57,6 @@ business-card-flip/
 ---
 
 ## 👥 Contributors
-- Abhishan Francis
-- Abel Alexader
-- Misheal Julian
+- [Abhishan Francis](https://github.com/falconishere)
+- [Abel Alexader](https://github.com/abelalexander18)
+- [Misheal Julian]()
