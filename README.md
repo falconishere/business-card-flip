@@ -42,11 +42,12 @@ Click or hover to flip the card and reveal the back side. Perfect for portfolios
 ---
 
 ## 📂 Project Structure
+```
 business-card-flip/
 │
 ├── index.html # Main HTML file
 ├── style.css # Styles and animations
-
+```
 ---
 ## 🙌 Acknowledgements
 - [Tailwind CSS](https://tailwindcss.com) – Utility-first CSS framework for responsive design.
